@@ -13,7 +13,8 @@ public class AppTest
     public void testAppConstructor() {
         App app1 = new App();
         App app2 = new App();
-        assertEquals(app1.getMessage(), app2.getMessage());
+        App app3 = new App();
+        assertEquals(app1.getMessage(), app2.getMessage(),app3.getMessage());
     }
 
     @Test
